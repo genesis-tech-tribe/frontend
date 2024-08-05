@@ -69,7 +69,7 @@ Please refer to the [Setup Documentation](./docs/SETUP.md) for instructions on h
 
 ## Community
 
-The Nishiki community can be found on [GitHub Discussions]() where you can ask questions, voice ideas, and share your projects with other people.
+The Nishiki community can be found on [GitHub Discussions](https://github.com/nishiki-tech/nishiki-frontend/discussions) where you can ask questions, voice ideas, and share your projects with other people.
 
 To chat with the team or other community members, you can join the Nishiki [Discord](https://discord.gg/kZ9kZE8dcP) server.
 
