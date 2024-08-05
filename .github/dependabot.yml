@@ -6,11 +6,11 @@ updates:
     target-branch: 'develop'
     versioning-strategy: 'increase'
     schedule:
-      interval: 'daily'
+      interval: 'monthly'
       time: '08:00'
       timezone: 'Canada/Pacific'
     commit-message:
-      # Prefix all commit messages with "npm: "
+      # Prefix all commit messages with "build: "
       prefix: 'build'
     reviewers:
       - 'nishiki-tech/frontend-reviewer'
@@ -20,11 +20,11 @@ updates:
     directory: '/'
     target-branch: 'develop'
     schedule:
-      interval: 'daily'
+      interval: 'monthly'
       time: '08:00'
       timezone: 'Canada/Pacific'
     commit-message:
-      # Prefix all commit messages with "npm: "
+      # Prefix all commit messages with "ci: "
       prefix: 'ci'
     reviewers:
       - 'nishiki-tech/frontend-reviewer'
