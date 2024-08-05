@@ -3,8 +3,8 @@
 Title Naming Conventions:
 
 - Start with a capitalized prefix followed by an imperative form of a verb.
-- Refer to the "Types of Branches" section for the prefix:
-  https://github.com/nishiki-tech/nishiki-frontend/blob/develop/docs/CONTRIBUTING.md#types-of-branches
+- Refer to the "Feature Branches" section for the prefix:
+  https://github.com/nishiki-tech/nishiki-frontend/blob/develop/docs/BRANCHING.md#feature-branches
 
 Example:
 - Feature: Add button to the home page
@@ -13,6 +13,7 @@ Example:
 - Refactor: Reorganize the file structure
 - Test: Add unit tests for form validation
 - Docs: Update installation guide
+- Chore: Use this prefix if your change does not fit into any of the above.
 
 -->
 
@@ -60,8 +61,8 @@ Example:
 <!-- You can tick the checkboxes if not applicable -->
 
 - [ ] The naming convention of the PR title is correct (See the comment at the top of this template)
-- [ ] The base branch is correct (See: [Types of Branches](https://github.com/nishiki-tech/nishiki-frontend/blob/develop/docs/CONTRIBUTING.md#types-of-branches))
-- [ ] The branch name follows the [Branch Naming Conventions](https://github.com/nishiki-tech/nishiki-frontend/blob/develop/docs/CONTRIBUTING.md#branch-naming-conventions)
+- [ ] The base branch is correct (See: [Feature Branches](https://github.com/nishiki-tech/nishiki-frontend/blob/develop/docs/BRANCHING.md#feature-branches))
+- [ ] The branch name follows the [Branch Naming Conventions](https://github.com/nishiki-tech/nishiki-frontend/blob/develop/docs/BRANCHING.md#branch-naming-conventions)
 - [ ] The correct assignees and reviewers have been designated for this PR
 - [ ] The coding style follows the [Coding Style Guide](https://github.com/nishiki-tech/nishiki-frontend/blob/develop/docs/STYLEGUIDE.md)
 - [ ] All the related issues are associated with this PR
