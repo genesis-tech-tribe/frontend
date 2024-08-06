@@ -1,18 +1,31 @@
 'use client';
 import { Card } from '@/components/ui';
+import { IGroup } from '@/types/definition';
 
 import Link from 'next/link';
 import { FC, useState } from 'react';
 
 import { ContainerCount } from './ContainerCount';
-import { GroupCardDropdownMenuTriggerButton } from './GroupCardDropdownMenuTriggerButton';
+import { GroupCardDropdownMenu } from './GroupCardDropdownMenu';
 import { RenameGroupForm } from './RenameGroupForm';
 import { UserCount } from './UserCount';
 
 interface IGroupCardContentProps {
-  groupId: string;
-  groupName: string;
+  /**
+   * the identifier of a group
+   */
+  groupId: IGroup['id'];
+  /**
+   * a group name used to display on each card
+   */
+  groupName: IGroup['name'];
+  /**
+   * the number of container which belongs to a group
+   */
   containerCount: number;
+  /**
+   * the number of user who belongs to a group
+   */
   userCount: number;
 }
 
@@ -50,7 +63,11 @@ export const GroupCardContent: FC<IGroupCardContentProps> = ({
           <UserCount userCount={userCount} />
         </div>
       </Link>
-      <GroupCardDropdownMenuTriggerButton groupId={groupId} handleRenameClick={handleRenameClick} />
+      <GroupCardDropdownMenu
+        groupId={groupId}
+        handleRenameClick={handleRenameClick}
+        isRenameFormOpen={isRenameFormOpen}
+      />
     </Card>
   );
 };
